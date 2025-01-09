@@ -29,9 +29,20 @@ This will create a dist/ folder containing a .tar.gz file:
 # Installing the Package Locally
 * pip install dist/ecommerce-1.0.0.tar.gz
 
+'''
+from ecommerce.products.product_manager import add_product
+from ecommerce.users.user_manager import add_user
+
+# Add a product
+add_product("Laptop", 1000, 10)
+
+# Add a user
+add_user("John Doe", "john@example.com")
+'''
+
 # Installing through github repo
     * create a github repo and push your project into it
-    * pip install git+
+    * pip install git+https://github.com/aicouncil/ecommerce.git
 
 # PyPi => The python Package index
     * The primary repository for third-party python packages. It offers a vast collection of open-source tools and libraries.
