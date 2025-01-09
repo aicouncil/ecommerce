@@ -1,0 +1,14 @@
+ecommerce/
+    __init__.py
+    products/
+        __init__.py
+        product_manager.py
+        inventory.py
+    users/
+        __init__.py
+        user_manager.py
+        authentication.py
+    orders/
+        __init__.py
+        order_manager.py
+        payment.py
